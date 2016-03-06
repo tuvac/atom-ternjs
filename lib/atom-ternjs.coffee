@@ -55,13 +55,13 @@ module.exports =
       title: 'Display inline suggestions for function params'
       description: 'Displays a inline suggestion located right next to the current cursor'
       type: 'boolean'
-      default: true
+      default: false
       order: 7
     lint:
       title: 'Use tern-lint'
       description: 'Use tern-lint to validate JavaScript files to collect semantic errors'
       type: 'boolean'
-      default: true
+      default: false
       order: 8
     documentation:
       title: 'Documentation'
@@ -73,13 +73,13 @@ module.exports =
       title: 'Url'
       description: 'Whether to include documentation urls (if found) in the result data.'
       type: 'boolean'
-      default: true
+      default: false
       order: 10
     origins:
       title: 'Origin'
       description: 'Whether to include origins (if found) in the result data.'
       type: 'boolean'
-      default: true
+      default: false
       order: 11
 
   activate: (state) ->
